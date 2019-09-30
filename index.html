@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<!-- {%extends "index.html"%} -->
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+
+    <!-- My css stylesheet -->
+    <link rel="stylesheet" type="text/css" href="styles.css">
+
+    <!-- Bootstrap Css -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <!-- w3school Css -->
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+
+    <!-- Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!-- Font -->
+
+    <link href="https://fonts.googleapis.com/css?family=Lato:100|Pacifico|Permanent+Marker|Roboto:100,400|Satisfy|Shadows+Into+Light&display=swap&subset=latin-ext" rel="stylesheet">
+
+
+</head>
+
+<!-- Header will hold the nav bar and its contents -->
+<header class="fixed-top w3-animate-opacity ">
+    <div class="container">
+        <nav class="navbar navbar-expand-sm navbar-dark bg-transparent">
+            <a class="navbar-brand " href="index.html">
+                <img src="images/torontobrand.png" alt="torontobrand" height="50px" width="50px">Toronto
+            </a>
+            <div class="collapse navbar-collapse w3-hover-border-dark-grey ">
+
+                <ul class="navbar-nav w3-display-right mr-auto mt-2 mt-lg-0">
+
+                    <li class="nav-item">
+                        <a class="nav-link active" href="index.html">Home</a></li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="museums.html">Museums</a></li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="hotels.html">Hotels</a></li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="sports.html">Sports</a></li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">History</a></li>
+                </ul>
+            </div>
+
+        </nav>
+    </div>
+</header>
+
+
+<body>
+
+    <main>
+
+        <!-- Title of page-->
+        <section id="intro" style="background-image: url(images/toronto2.jpg) !important">
+
+            <div class="w3-display-container w3-centered w3-display-middle">
+
+                <h1 class="w3-animate-opacity">Toronto</h1>
+
+            </div>
+        </section>
+
+        <!-- Explore toronto. Dislays Torontos iconic landmarks. Aligned row of images -->
+        <div class="container" id="explore">
+            <h2 class="display-2" style="text-align: end">
+                Explore Toronto
+            </h2>
+            <div class="row list-unstyled w3-round" id="imageside">
+
+                <li class="w3-hover-opacity"><img src="images/image3.jpg" class="w3-round-xlarge" alt="yonge-street" style="float: left; "></li>
+                <li class="w3-hover-opacity"><img src=" images/image1.jpg " class="w3-round-xlarge" alt="images1" style="float: left; margin-left: 35px"></li>
+                <li class="w3-hover-opacity"> <img src="images/image2.jpg " class="w3-round-xlarge" alt="images2" style="float: right; margin-left: 35px "></li>
+
+            </div>
+        </div>
+
+
+        <!-- list of trip suggestions -->
+        <div class="container-fluid w3-animate-zoom " id="red">
+
+            <div id="mid" class="row">
+
+                <ol class="list-group w3-animate-left col-sm-5 ">
+                    <li class=" list-group-item w3-round-medium ">
+                        Experience Rich History at Toronto's Market Gallery
+                    </li>
+                    <li class="list-group-item w3-round-medium ">
+                        Attend live conserts at the Danforth Music Hall
+                    </li>
+                    <li class="list-group-item w3-round-medium ">
+                        Experience Thrills at Toronto's Canada's Wonderland
+                    </li>
+                    <li class="list-group-item w3-round-medium ">
+                        Reside at The Delta Hotels
+                    </li>
+                    <li class="list-group-item w3-round-medium ">
+                        Witness the Toronto Maple Leafs take on Rivals
+                    </li>
+
+                </ol>
+
+                <!-- Plan your trip header -->
+                <div class=" container">
+                    <h3 class="display-3 d-flex flex-row-reverse ">
+                        PLAN YOUR TRIP
+                    </h3>
+                </div>
+            </div>
+        </div>
+
+        <!-- Divides the page. adds a gap between elements -->
+        <div style="height:100px"></div>
+
+        <!-- Social Media icons/links -->
+        <div class="container-fluid py-4 " id="socialmedia">
+            <a class="fa fa-facebook-square" href="https://www.facebook.com/"></a>
+            <a class="fa fa-twitter-square" href="https://twitter.com/?lang=en"></a>
+            <a class="fa fa-instagram" href="https://www.instagram.com/?hl=en"></a>
+            <a class="fa fa-reddit-square" href="https://www.reddit.com/"></a>
+            <a class="fa fa-youtube" href="https://www.youtube.com/"></a>
+        </div>
+    </main>
+
+    <footer class="page-footer " style="text-align: center">
+
+        <div class="footer-copyright py-5">
+            © 2019 Copyright Tiwaloluwa Ojo:
+            <a href="references.html"> References</a>
+        </div>
+
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js " integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo " crossorigin="anonymous "></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js " integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1 " crossorigin="anonymous "></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js " integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM " crossorigin="anonymous "></script>
+
+
+</body>
+
+</html>

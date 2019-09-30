@@ -1,0 +1,156 @@
+#intro {
+    background-position: center !important;
+    background-size: cover !important;
+    height: 600px;
+    text-align: center;
+    align-content: center;
+}
+
+a:hover {
+    background-color: lightgrey;
+}
+
+a:visited {
+    text-decoration-line: line-through;
+    background-color: blue;
+}
+
+a:active {
+    background-color: cadetblue !important;
+    text-decoration-style: wavy !important;
+    font-weight: bold !important;
+}
+
+a:link {
+    color: chartreuse !important;
+}
+
+a:hover {
+    background-color: slategrey;
+}
+
+a,
+p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 5vm;
+    font-style: normal;
+}
+
+header {
+    margin-top: 15px;
+}
+
+h1,
+h3 {
+    animation-delay: 500ms;
+}
+
+h3 {
+    text-align: center;
+    padding-right: 0;
+    margin-left: 50px;
+    margin-top: 5px;
+    margin-right: 50px;
+    box-shadow: 56vw;
+    width: 53%;
+}
+
+h3.display-3 {
+    position: relative;
+    top: 50px;
+    right: -40%;
+    background-color: gray;
+}
+
+.display-2 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 6vw;
+}
+
+section div h1 {
+    font-size: 18vw;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-family: 'Permanent Marker', cursive;
+}
+
+#red {
+    background-image: url("images/image9.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    align-items: center;
+}
+
+ol {
+    padding: 0;
+    margin-left: 50px;
+    margin-top: 40px;
+    padding-top: 50px;
+}
+
+#mid {
+    color: black;
+    box-shadow: 50%;
+}
+
+#explore img {
+    height: 25vw;
+    width: 25vw;
+}
+
+#imageside {
+    padding-top: 80px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 80px;
+}
+
+#socialmedia {
+    background-image: url("images/image9.jpg");
+    background-position: center;
+    background-size: cover;
+    font-size: 60px;
+    text-align: center;
+}
+
+.container {
+    font-family: 'Roboto', sans-serif;
+}
+
+div a .fa {
+    text-align: center;
+    font-size: 500px;
+    width: 30px;
+}
+
+a.fa:hover {
+    opacity: 0.5;
+    background-color: transparent;
+}
+
+.fa-facebook-square {
+    color: #3B5998;
+}
+
+.fa-twitter-square {
+    color: #1da1f2;
+}
+
+.fa-instagram {
+    color: #fb3958;
+}
+
+.fa-reddit-square {
+    color: #FF4301;
+}
+
+.fa-youtube {
+    color: #c4302b;
+}
+
+body {
+    background-color: black !important;
+    color: white !important;
+    margin: 0;
+    scroll-behavior: smooth;
+}

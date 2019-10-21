@@ -1,6 +1,8 @@
 #intro {
     background-position: center !important;
     background-size: cover !important;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
     height: 600px;
     text-align: center;
     align-content: center;
@@ -78,6 +80,8 @@ section div h1 {
     background-image: url("images/image9.jpg");
     background-size: cover;
     background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
     align-items: center;
 }
 
